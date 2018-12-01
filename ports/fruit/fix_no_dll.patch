@@ -1,0 +1,11 @@
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 66bf79f..697ad2d 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -22,5 +22,6 @@ else()
+ endif()
+ 
+ install(TARGETS fruit
++        RUNTIME DESTINATION bin
+         ARCHIVE DESTINATION "${INSTALL_LIBRARY_DIR}"
+         LIBRARY DESTINATION "${INSTALL_LIBRARY_DIR}")
